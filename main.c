@@ -95,7 +95,7 @@ int main() {
                 // Changes based on choice
                 if(choice == 1) {
                 	printf("Bid amount: ");
-                	scanf("%d",bidAmount);
+                	scanf("%d",&bidAmount);
                     currentBid = currentBid + bidAmount;
                     printf("You placed a bid!");
                     printf("\nNew Bid: %d", currentBid);
